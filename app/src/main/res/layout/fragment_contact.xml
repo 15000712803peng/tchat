@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <tonyan.chat.com.tchat.widget.RefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresh">
+        <tonyan.chat.com.tchat.widget.ContactScrollView
+            android:id="@+id/scoller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></tonyan.chat.com.tchat.widget.ContactScrollView>
+    </tonyan.chat.com.tchat.widget.RefreshLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/top_header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:background="#efefef"
+            android:layout_height="1.5px"/>
+        <tonyan.chat.com.tchat.widget.PoitionSlidingTabStrip
+            android:layout_width="match_parent"
+            android:id="@+id/top_tab"
+            android:background="@android:color/white"
+            android:layout_height="50dp"></tonyan.chat.com.tchat.widget.PoitionSlidingTabStrip>
+    </LinearLayout>
+
+
+</RelativeLayout>

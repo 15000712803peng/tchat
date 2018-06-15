@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@android:color/white"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@mipmap/tpr"
+            android:layout_width="52dp"
+            android:layout_height="52dp" />
+
+        <LinearLayout
+            android:layout_toRightOf="@id/image"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:text="上海运动交流群"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:textSize="14sp"
+                android:textColor="#808080"
+                android:text="相信 加入了本群"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#efefef"
+        android:layout_height="1.5px"/>
+
+
+
+
+</LinearLayout>

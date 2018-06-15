@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+    <View
+        android:id="@+id/tab_top_divider"
+        android:layout_width="match_parent"
+        android:background="#efefef"
+        android:layout_height="1.5px"/>
+    <tonyan.chat.com.tchat.widget.PagerSlidingTabStrip
+        android:id="@+id/center_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        />
+
+    <tonyan.chat.com.tchat.widget.WrapContentHeightViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
